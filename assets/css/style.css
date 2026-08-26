@@ -109,6 +109,7 @@ p { margin: 0 0 1em; }
   letter-spacing: 0.08em;
   font-size: 0.85rem;
   margin-bottom: 14px;
+  color: #199eff;
 }
 .hero__headline {
   color: var(--maroon);
