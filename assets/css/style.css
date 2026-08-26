@@ -42,6 +42,7 @@ body {
   background: var(--white);
   line-height: 1.5;
   font-weight: 500;
+  font-synthesis: none;
 }
 img { max-width: 100%; display: block; }
 a { color: inherit; }
@@ -172,7 +173,7 @@ p { margin: 0 0 1em; }
 }
 .about-figure.right { float: right; margin: 0 0 24px 32px; }
 .about-lede {
-  color: var(--blue-deep);
+  color: #37aaff;
   font-size: clamp(1.2rem, 2vw, 1.5rem);
   font-weight: 900;
   margin-bottom: 20px;
@@ -180,7 +181,7 @@ p { margin: 0 0 1em; }
 .about-body { max-width: 900px; }
 .about-body::after { content: ""; display: block; clear: both; }
 .about-body p { font-size: 1.05rem; }
-.about-body strong { color: inherit; }
+.about-body strong { color: #149cff; }
 
 /* ---- Volunteer CTA split ---- */
 .cta-split {
